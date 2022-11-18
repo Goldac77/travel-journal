@@ -1,8 +1,11 @@
+import '../App.css';
+import {BiWorld} from 'react-icons/bi'
+
 function Nav() {
     return(
-        <div>
-
-        </div>
+        <nav className='nav-div'>
+            <BiWorld/> my travel journal
+        </nav>
     )
 }
 
